@@ -39,7 +39,6 @@ Plug 'tomlion/vim-solidity'          " syntax highlighting for solidity
 Plug 'tpope/vim-fugitive'            " Git Support
 Plug 'nvim-lua/completion-nvim'      " LSP
 Plug 'neovim/nvim-lspconfig'         " autocomplete
-
 Plug 'nvim-lua/popup.nvim'           " required for telescope
 Plug 'nvim-lua/plenary.nvim'         " required for telescope
 Plug 'nvim-telescope/telescope.nvim' " searches for files using fuzzy search

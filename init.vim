@@ -71,12 +71,12 @@ noremap! <C-h> <C-w>
 nnoremap <SPACE> <C-W>
 inoremap <C-Z> <C-U>
 
-" nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search })
 nnoremap <SPACE>e :NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>t :tabedit<CR>
 nnoremap <leader>T :tabclose<CR>
 
+" nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search })
 " Find files using Telescope command-line sugar.
 nnoremap <C-P> <cmd>Telescope git_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>

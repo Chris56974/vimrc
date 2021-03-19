@@ -1,0 +1,82 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [ 80 ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.fontLigatures": false,
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2,
+    "editor.fontSize": 17.5,
+    "editor.tabCompletion": "on",
+    "editor.linkedEditing": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.hg/store/**": true
+    },
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "java.configuration.runtimes": [],
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "maven.excludedFolders": [
+        "**/.*",
+        "**/node_modules",
+        "**/target",
+        "**/bin"
+    ],
+    "python.languageServer": "Pylance",
+    "sonarlint.rules": {
+        "java:S106": {
+            "level": "off"
+        }
+    },
+    "spring-boot.ls.java.home": "/usr/bin/java",
+    "sonarlint.pathToNodeExecutable": "/home/chris/.nvm/versions/node/v14.16.0/bin/node",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "update.mode": "none",
+    "vim.useSystemClipboard": true,
+    "vim.enableNeovim": true,
+    "vim.handleKeys": {
+        "<C-BS>": false,
+        "<C-a>": false,
+        "<C-d>": false,
+        "<C-w>": false,
+        "<C-x>": false,
+        "<C-f>": false
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.linux": "/home/chris/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path.linux": "/home/chris/.vs-kubernetes/tools/draft/linux-amd64/draft",
+        "vs-kubernetes.kubectl-path.linux": "/home/chris/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.linux": "/home/chris/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.minikube-path.linux": "/home/chris/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+}
